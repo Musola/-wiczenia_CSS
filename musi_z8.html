@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WEWNĘTRZNY ARKUSZ STYLU</title>
+<style type="text/css">
+    /* <![CDATA[ */
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+    table {
+        margin: auto;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    /* ]]> */
+</style>
+</head>
+<body>
+<h1>WEWNĘTRZNY ARKUSZ STYLU</h1>
+<ol>
+<li>
+    <p><strong>Gdzie jest wstawiany?</strong></p>
+    <p>Wewnętrzny arkusz stylów jest wstawiany w sekcji &lt;head&gt; dokumentu HTML, pomiędzy znacznikami &lt;style&gt;.</p>
+</li>
+<li>
+    <p><strong>Składnia teoretyczna (w ramce, konieczne wcięcia)</strong></p>
+    <table border="1">
+        <tr>
+            <th>&lt;head&gt;</th>
+        </tr>
+        <tr>
+            <td>
+                <style type="text/css">
+                    /* <![CDATA[ */
+                    selektor1 { cecha: wartość; cecha2: wartość2... }
+                    selektor2 { cecha: wartość; cecha2: wartość2... }
+                    /* ]]> */
+                </style>
+            </td>
+        </tr>
+    </table>
+</li>
+<li>
+    <p><strong>Jakie mogą być selektory?</strong></p>
+    <p>Selektory w arkuszu stylów wewnętrznym mogą być takie same jak w zewnętrznym arkuszu stylów lub w arkuszu stylów osadzonym w elemencie HTML.</p>
+    <p>Najczęściej używane selektory to:</p>
+    <ul>
+        <li>Elementy HTML (np. body, div, p, a)</li>
+        <li>Klasy (np. .nazwa-klasy)</li>
+        <li>Identyfikatory (np. #id-elementu)</li>
+        <li>Pseudo-klasy (np. :hover, :active, :focus)</li>
+    </ul>
+</li>
+<li>
+    <p><strong>Jakie mogą być cechy i wartości?</strong></p>
+    <p>W zależności od potrzeb projektu, możesz zdefiniować różnorodne cechy i wartości, które zmieniają wygląd i zachowanie elementów HTML.</p>
+    <p>Przykładowe cechy:</p>
+    <ul>
+        <li>Kolor (color)</li>
+        <li>Tło (background-color)</li>
+        <li>Czcionka (font-family, font-size)</li>
+        <li>Marginesy (margin)</li>
+        <li>Wypełnienie (padding)</li>
+        <li>Obramowanie (border)</li>
+    </ul>
+    <p>Przykładowe wartości:</p>
+    <ul>
+        <li>Kolory (np. nazwy kolorów, kodów szesnastkowych)</li>
+        <li>Rozmiary (np. piksele, em, procenty)</li>
+        <li>Obrazy (np. URL do obrazu)</li>
+        <li>Czcionki (np. nazwy czcionek, rodzaje)</li>
+    </ul>
+</li>
+</ol>
+</body>
+</html>

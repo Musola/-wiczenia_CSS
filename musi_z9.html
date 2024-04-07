@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>ZEWNĘTRZNY ARKUSZ STYLU</h1>
+<ol>
+<li><h1> Składnia teoretyczna  otoczony ramką (może być tabela jedno komórkowa,
+konieczne wcięcia).</li></h1>
+<table border="1">
+<td>< head ><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< link rel="Stylesheet" type="text/css" href="style.css" /><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+< / head><br></td>
+</table>
+<li><h1> Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1></li>
+<p>Styl zewnętrzny jest podłączany za pomocą znacznika <link> i wstawiany jest w sekcji <head> dokumentu HTML. Może być podłączony wielokrotnie w jednym dokumencie.</p>
+<li><h1> Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może
+być tabela jedno komórkowa?</h1></li>
+<table border="1">
+<td>< link rel="Stylesheet" type="text/css" href="style.css" /></td>
+</table>
+<li><h1> Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+musi być zachowana przy większej ilości dołączanych styli?</h1></li>
+<p>Może być dołączonych wiele arkuszy styli. Kolejność ich podłączania ma znaczenie - arkusze styli dołączone później mają większy priorytet.</p>
+<li><h1> Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1></li>
+<p>W przypadku konfliktów, priorytet mają zazwyczaj bardziej szczegółowe selektory oraz te, które są zdefiniowane później w kolejności.</p>
+<li><h1> Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1></li>
+<p>Pliki arkuszy styli można tworzyć i edytować przy użyciu zwykłego edytora tekstu, pisząc kod CSS w pliku tekstowym z rozszerzeniem .css.</p>
+<li><h1> Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1></li>
+<p>Specjalne edytory CSS, takie jak Visual Studio Code, Sublime Text, Atom, oferują zaawansowane funkcje, takie jak kolorowanie składni, podpowiedzi i inne ułatwienia przy pisaniu CSS.</p>
+<li><h1> Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1></li>
+<p>Pliki będące zewnętrznymi arkuszami styli mają rozszerzenie .css.</p>
+<li><h1>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</h1></li>
+<p>Usprawniają zarządzanie styli, Możliwość ponownego wykorzystania tych samych stylów w wielu dokumentach.</p>
+<li><h1> Uwagi na temat pisania w CSS.</h1></li>
+<p>Zachowaj czytelność kodu poprzez odpowiednie wcięcia i komentarze, Stosuj konsekwentne nazewnictwo klas i id, Unikaj nadmiernego zagnieżdżania, Testuj i sprawdzaj na różnych przeglądarkach, aby upewnić się, że stylowanie działa poprawnie.</p>
+<ol>
+</body>
+</html>

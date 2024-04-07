@@ -1,0 +1,43 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<h1 align="center"><br>Sposoby podlaczania styli do strony</h1>
+
+
+  <p><label for="w3review">1. zewnetrzny arkusz stylow </label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"><head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head></textarea>
+  <br>
+  <p><label for="w3review">2. styl lokalny (styl wpisany, liniowy, linijkowy, w linii) </label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"><selektor style="cecha1: wartosc1; cecha2: wartosc2...">...</selektor></textarea>
+  <br>
+
+<p><label for="w3review">3. wewnetrzny arkusz stylow</label></p>
+  <textarea id="w3review" name="w3review" rows="5" cols="50"><head>
+<style type="text/css">
+selektor1 { cecha: wartosc; cecha2: wartosc2... }
+selektor2 { cecha: wartosc; cecha2: wartosc2... }
+</style>
+</head></textarea>
+  <br>
+  
+<p><label for="w3review">4. alternatywny arkusz stylow</label></p>
+  <textarea id="w3review" name="w3review" rows="7" cols="50"><head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyslna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head></textarea>
+  <br>
+
+<p><label for="w3review">5. import arkusza stylow</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"><style type="text/css">
+@import url(adres zewnetrznego arkusza stylow);
+</style></textarea>
+  <br>
+</body>
+</html>
+
+ 
