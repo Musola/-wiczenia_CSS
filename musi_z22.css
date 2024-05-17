@@ -1,0 +1,14 @@
+p {
+    color: red;
+    font-size: 33pt;
+}
+p#gruby_musi { 
+    color: green;
+    font-size: 23pt;
+    font-weight: 900;
+}
+p#dlawszystkich_musi {
+    color: yellow;
+    font-size: 13pt;
+    font-family: Arial;
+}

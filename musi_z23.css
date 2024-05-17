@@ -1,0 +1,26 @@
+p#pogrubienie_musi{
+    font-size: 32px;
+    color: #945dd4;   
+}
+p#pochylona_musi{
+    font-size: 34pt;
+    color: #f8c170;
+}
+p#index_gorny_musi{
+    font-size: 0.9cm;
+    color: #a88f20;
+}
+p#index_dolny_musi{
+    font-size: 1.3cm;
+    color: #44f3e8;
+}
+p#mono_musi{
+    font-size: 42px;
+    color: #28DF70;
+}
+p#powiekszenie_musi{
+    color: #623fa2;
+}
+p#pomniejszenie_musi{
+    color: #c6a33e;
+}
